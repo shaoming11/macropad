@@ -260,6 +260,141 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "OLED_0.91:OLED_0.91"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "OLED_0.91"
+				(at 6.858 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OLED_0.91_1_1"
+				(rectangle
+					(start 0 8.89)
+					(end 13.97 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 6.35 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 2.54 180)
+					(length 2.54)
+					(name "VCC_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "OPL Lirbary:XIAO-RP2040-DIP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1241,6 +1376,18 @@
 		)
 	)
 	(junction
+		(at 124.46 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e09378e-44df-4f0c-86a6-2af3eaf48dbc")
+	)
+	(junction
+		(at 165.1 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "458da456-bb9d-4867-b62e-a15cc80e13e3")
+	)
+	(junction
 		(at 71.12 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1290,7 +1437,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 127) (xy 127 127)
+			(xy 115.57 127) (xy 124.46 127)
 		)
 		(stroke
 			(width 0)
@@ -1360,6 +1507,36 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 127) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2524e626-d233-453d-8ff2-f5bd34ff23c7")
+	)
+	(wire
+		(pts
+			(xy 187.96 99.06) (xy 187.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d77126-c4a5-4e36-85f1-e37b6a6175d2")
+	)
+	(wire
+		(pts
+			(xy 191.77 115.57) (xy 165.1 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321f7e58-d8a6-492d-9be5-4582733834b9")
+	)
+	(wire
+		(pts
 			(xy 180.34 149.86) (xy 180.34 127)
 		)
 		(stroke
@@ -1390,6 +1567,36 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 95.25) (xy 191.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6866554c-0bb6-4e7d-8a17-d920ba18cdfc")
+	)
+	(wire
+		(pts
+			(xy 121.92 130.81) (xy 127 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b684f7-452d-4bb9-9655-9563e17be417")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7156d519-04a2-454c-b598-cbe8432329fd")
+	)
+	(wire
+		(pts
 			(xy 90.17 110.49) (xy 90.17 147.32)
 		)
 		(stroke
@@ -1397,6 +1604,16 @@
 			(type default)
 		)
 		(uuid "74824cc5-e8b1-400c-b122-36e4364f08c1")
+	)
+	(wire
+		(pts
+			(xy 168.91 95.25) (xy 121.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86dfd485-5724-482e-84ce-902bf4286b72")
 	)
 	(wire
 		(pts
@@ -1470,6 +1687,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 95.25) (xy 191.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e4e24c-8055-4621-a508-9c1333dd73c8")
+	)
+	(wire
+		(pts
 			(xy 95.25 143.51) (xy 172.72 143.51)
 		)
 		(stroke
@@ -1477,6 +1704,16 @@
 			(type default)
 		)
 		(uuid "b8b1b469-06d4-4736-81a5-437c17247f3d")
+	)
+	(wire
+		(pts
+			(xy 187.96 119.38) (xy 162.56 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d4ef99-9d9d-4b51-af47-63cc4bd07e38")
 	)
 	(wire
 		(pts
@@ -1520,6 +1757,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 95.25) (xy 121.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce415fb-3f30-4243-afab-a9e3371fa1cb")
+	)
+	(wire
+		(pts
 			(xy 176.53 147.32) (xy 176.53 130.81)
 		)
 		(stroke
@@ -1547,6 +1794,16 @@
 			(type default)
 		)
 		(uuid "f1c3dc7b-6158-4e1e-b828-e9abb9a47d63")
+	)
+	(wire
+		(pts
+			(xy 168.91 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31d5ae6-be4f-4494-9365-7adcd3135517")
 	)
 	(wire
 		(pts
@@ -1974,6 +2231,80 @@
 		)
 	)
 	(symbol
+		(lib_id "OLED_0.91:OLED_0.91")
+		(at 171.45 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "903a8c1f-0d7b-471b-8eed-ae3deb29b5f9")
+		(property "Reference" "OLED_0.1"
+			(at 178.435 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 178.435 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OLED_0.91inch:SSD1306-0.91-OLED-4pin-128x32"
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ac1cc221-5a1e-452a-a3e3-6f45a13f4e89")
+		)
+		(pin "4"
+			(uuid "5663f17c-06d6-4d94-a983-bf9e3384a5cc")
+		)
+		(pin "1"
+			(uuid "9a7ba770-0f57-419f-8d04-82571be4b1e6")
+		)
+		(pin "2"
+			(uuid "5f34cf3d-35b4-492c-804e-03df34aeafa8")
+		)
+		(instances
+			(project ""
+				(path "/ab3f720b-55e1-44b6-96f0-cd7675d9a85f"
+					(reference "OLED_0.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6812MINI")
 		(at 152.4 78.74 0)
 		(unit 1)
@@ -1981,7 +2312,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a2f33b60-3dad-413f-9c58-39a6ec0c72ae")
 		(property "Reference" "D2"
 			(at 165.1 72.3198 0)
