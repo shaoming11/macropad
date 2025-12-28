@@ -5,53 +5,52 @@ This is my first project that involved the use of KiCad and Fusion 360.
 - 4 keyboard buttons
 - RP2040 microcontroller
 - Firmware connected to QMK
-- 3D Printable Case using Fusino 360
+- 3D Printable Case using Fusion 360
 - PCB designed using KiCad
 
 # PCB
 
 Schematic Layout
 
-<img width="680" height="467" alt="Screenshot 2025-12-24 at 10 10 59 PM" src="https://github.com/user-attachments/assets/675ac9a5-b819-45ea-bb6b-55a1a7b2cb75" />
+<img width="956" height="675" alt="Screenshot 2025-12-27 at 8 19 52 PM" src="https://github.com/user-attachments/assets/21058fc2-60f2-4ff4-bf83-aeccb87258bd" />
+
 
 PCB Layout
 
-<img width="429" height="592" alt="Screenshot 2025-12-24 at 10 11 38 PM" src="https://github.com/user-attachments/assets/aeed4dde-3e8a-4591-a26b-d55d1d3c5e41" />
+<img width="665" height="712" alt="Screenshot 2025-12-27 at 8 20 08 PM" src="https://github.com/user-attachments/assets/ccc278d4-3a96-4dc9-88d6-de0756540b49" />
 
-Dimensions: 42.862 x 62.930 mm
 
+Dimensions: 53.531 x 62.930 mm
 
 
 # CAD Model
 
 Model
 
-<img width="619" height="452" alt="Screenshot 2025-12-24 at 10 09 05 PM" src="https://github.com/user-attachments/assets/38c45b0f-5f9f-45c2-bb0e-5f82b8ebbdd0" />
+<img width="615" height="415" alt="Screenshot 2025-12-27 at 8 22 08 PM" src="https://github.com/user-attachments/assets/3e9da7d1-777d-4d95-b75d-a9ae7902826c" />
+
 
 Sketches
 
-<img width="615" height="520" alt="Screenshot 2025-12-24 at 10 09 57 PM" src="https://github.com/user-attachments/assets/b07be496-77a1-4e9e-9cfc-3e7e5917b4f7" />
+<img width="445" height="426" alt="Screenshot 2025-12-27 at 8 22 29 PM" src="https://github.com/user-attachments/assets/c94b79d3-4f28-47a0-8cf3-cc991cfab74b" />
+
+<img width="452" height="432" alt="Screenshot 2025-12-27 at 8 22 55 PM" src="https://github.com/user-attachments/assets/e99c4f2e-259d-40ad-837d-4097efcdcf4c" />
+
 
 
 # Bill of Materials
 
 Seeed XIAO RP2040 - since you're soldering, you can mount it SMD style! Please note it is significantly harder than doing it through-hole, so if it's your first time soldering I would avoid it.
 
-Through-hole 1N4148 Diodes (Max 20x)
+MX-Style switches (4x)
 
-MX-Style switches (Max 16x)
-
-EC11 Rotary encoders (Max 2x)
-
-0.91 inch OLED displays (Max 1x) (make sure the pin order is GND-VCC-SCL-SDA, otherwise it WILL NOT WORK)
+0.91 inch OLED displays (1x)
 
 Blank DSA keycaps (White)
 
-SK6812 MINI-E LEDs (Max 16x)
+M3x16mm screws (4x)
 
-M3x16mm screws
-
-M3x5mx4mm heatset inserts
+M3x5mx4mm heatset inserts (4x)
 
 # What I learned
 I learned about the basics of PCB design through KiCad, exclusively working on schematics and PCB layout. Performing DRC helped me understand how to turn schematics into a printable PCB layout.
